@@ -1,4 +1,4 @@
-FROM tomcat:9.0.79-jdk17-temurin
+FROM tomcat:9.0.83-jdk21-temurin
 
 # ⬇️ Copy WAR from target folder
 COPY target/OnlineBookStore.war /usr/local/tomcat/webapps/
