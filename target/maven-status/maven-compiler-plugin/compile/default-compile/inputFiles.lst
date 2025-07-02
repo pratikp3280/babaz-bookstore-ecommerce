@@ -9,6 +9,7 @@ C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\dao\UserDAO.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\model\Book.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\servlet\DeleteBookServlet.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\servlet\UpdateBookServlet.java
+C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\servlet\TestDBConnectionServlet.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\servlet\BookImageServlet.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\dao\OrderDAO.java
 C:\Users\Admin\eclipse-workspace\OnlineBookStore\src\main\java\servlet\MyOrdersServlet.java

@@ -166,5 +166,15 @@
     <url-pattern>/BookImageServlet</url-pattern>
 </servlet-mapping>
 
+<servlet>
+    <servlet-name>TestDBConnection</servlet-name>
+    <servlet-class>servlet.TestDBConnectionServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>TestDBConnection</servlet-name>
+    <url-pattern>/TestDB</url-pattern>
+</servlet-mapping>
+
 
 </web-app>
