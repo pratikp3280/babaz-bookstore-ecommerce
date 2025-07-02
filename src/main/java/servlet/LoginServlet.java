@@ -37,7 +37,7 @@ public class LoginServlet extends HttpServlet {
                 res.sendRedirect(req.getContextPath() + "/jsp/admin/adminDashboard.jsp");
             } else if ("user".equalsIgnoreCase(user.getRole())) {
             	System.out.println("Login Success: " + user.getEmail() + " | Role: " + user.getRole());
-            	res.sendRedirect(req.getContextPath() + "/userDashboard.jsp");
+            	res.sendRedirect(req.getContextPath() + "/jsp/userDashboard.jsp");
             	System.out.println("Login Success. Redirecting to dashboard...");
             	System.out.println("Context Path: " + req.getContextPath());
 
