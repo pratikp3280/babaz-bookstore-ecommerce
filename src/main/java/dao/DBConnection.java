@@ -1,4 +1,3 @@
-// Updated Version for Docker Compose:
 package dao;
 
 import java.sql.Connection;
@@ -6,24 +5,24 @@ import java.sql.DriverManager;
 
 public class DBConnection {
 
+    private static final String URL = "jdbc:mysql://mysql.railway.internal:3306/railway?useSSL=false";
+    private static final String USER = "root";
+    private static final String PASSWORD = "EGrQFdQBaXjgmAkaNqGQXJZctRRPppnl";
+
     public static Connection getConnection() {
         Connection conn = null;
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-
-            // Get environment variables from Render Dashboard
-            String url = System.getenv("DB_URL");
-            String user = System.getenv("DB_USER");
-            String password = System.getenv("DB_PASSWORD");
-
-            conn = DriverManager.getConnection(url, user, password);
-
+            conn = DriverManager.getConnection(URL, USER, PASSWORD);
+            System.out.println("✅ Connected to Railway DB Successfully!");
         } catch (Exception e) {
+            System.out.println("❌ Connection Failed:");
             e.printStackTrace();
         }
         return conn;
     }
 }
+
 
 
 /*  package dao;
