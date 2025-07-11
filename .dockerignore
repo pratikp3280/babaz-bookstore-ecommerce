@@ -1,6 +1,0 @@
-*.log
-*.iml
-.idea/
-*.class
-*.jar
-!target/OnlineBookStore.war

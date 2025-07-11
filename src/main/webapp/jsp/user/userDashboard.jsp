@@ -18,7 +18,7 @@
         }
 
         .navbar {
-            margin-bottom: 30px;
+         background-color: blue;
             position: sticky;
             top: 0;
             z-index: 1000;
@@ -76,13 +76,34 @@
         #topBtn:hover {
             background-color: Aqua;
         }
+        .custom-navbar {
+    background-image: linear-gradient(-225deg, #231557 0%, #44107A 29%, #FF1361 67%, #231557 50%);
+    color: white;
+}
+
+.custom-navbar .nav-link {
+    color: white !important;
+    font-weight: 500;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #ffe600 !important; /* bright yellow hover */
+    text-shadow: 0 0 5px #fff;
+}
+
+.custom-navbar .navbar-brand {
+    font-weight: bold;
+    color: white !important;
+    text-shadow: 1px 1px 2px #000;
+}
+        
     </style>
 </head>
 
 <body>
 
-<!-- ✅ NAVBAR (Sticky) -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<!-- ✅ NAVBAR (Customized Gradient) -->
+<nav class="navbar navbar-expand-lg custom-navbar">
     <a class="navbar-brand" href="#">📚 OnlineBookstore</a>
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
@@ -94,6 +115,7 @@
         </ul>
     </div>
 </nav>
+
 
 <div class="container">
     <h3 class="text-center mb-4">Welcome, <%= userName %> 👋</h3>

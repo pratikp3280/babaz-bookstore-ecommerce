@@ -8,7 +8,11 @@
     <link rel="stylesheet" type="text/css" href="<c:url value='/css/login_page.css?v=2'/>">
 </head>
 <body>
+<!-- Include header -->
+<jsp:include page="/jsp/header.jsp" />
 
+
+<div class="main-content">
 <div class="register-container">
     <h2>👤 User Login</h2>
 
@@ -33,7 +37,7 @@
 
     <p>Don't have an account? 👉 <a href="register.jsp">Register here</a></p>
 </div>
-
+</div>
 <script>
     function togglePassword() {
         const passInput = document.getElementById("password");

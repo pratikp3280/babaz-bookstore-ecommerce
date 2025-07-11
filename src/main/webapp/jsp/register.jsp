@@ -9,6 +9,8 @@
 
 </head>
 <body>
+<!-- Include header -->
+<jsp:include page="/jsp/header.jsp" />
 
 <div class="register-container">
     <h2>📝 User Registration</h2>

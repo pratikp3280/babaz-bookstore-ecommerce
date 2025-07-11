@@ -1,0 +1,29 @@
+# Java compiled class files
+*.class
+
+# Eclipse project files
+*.classpath
+*.project
+*.settings/
+
+# Maven build folders
+/target/
+/build/
+
+# Logs
+*.log
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# IDE specific folders (Eclipse, VS Code etc.)
+.idea/
+.vscode/
+
+# Ignore config file if you store secrets (optional)
+config.properties
+
+# Ignore test reports or result data (if auto-generated)
+test-output/
+*.tmp
