@@ -245,3 +245,20 @@ Here are some planned improvements and features that could be added in the next 
 
 ---
 
+
+## 👤 Author
+
+**Pratik Patil**  
+🎓 Aspiring Full Stack Java Developer | Passionate About Backend, Web Apps & Real-World Problem Solving
+
+- 🔗 GitHub: [@pratikp3280](https://github.com/pratikp3280)
+- 💼 LinkedIn: [pratik-p-patil-1485aa1bb](https://www.linkedin.com/in/pratik-p-patil-1485aa1bb/)
+
+> 💡 _“Learning by building — every project is a step closer to mastering the craft.”_
+
+---
+
+<p align="center">
+  Made with ❤️ by Pratik Patil
+</p>
+
