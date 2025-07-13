@@ -229,4 +229,19 @@ This project integrates **Razorpay's Java API** in **Test Mode** to simulate sec
   <img src="screenshots/Admin_Razorapay_Payments_Data.png" alt="Admin Payment Test" width="260"/>
 </p>
 
+---
+
+## 🔮 Future Enhancements
+
+Here are some planned improvements and features that could be added in the next version of this project:
+
+- 🔐 **Role-Based Access Control (RBAC)** – Different permissions for Admins and Users
+- 🔒 **Password Hashing & Authentication Security** – Store hashed passwords for user accounts
+- 🎨 **Enhanced UI/UX Design** – Add animations, sliders, carousel, and themes
+- 📧 **Email Notifications** – Send order confirmations and invoices to users
+- 📊 **Admin Dashboard Reports** – View monthly sales, order analytics, and inventory stats
+- ☁️ **Deployment** – Host the app on platforms like Render, Railway, or AWS for live demo access
+- 📱 **Mobile Responsiveness** – Improve layout and interactions on smaller devices
+
+---
 
