@@ -19,16 +19,16 @@ Built with a Java Full-Stack approach — no Spring, no frameworks — just pure
 
 ## 📚 Table of Contents
 
-1. [About the Project] (#about-the-project)  
-2. [Features] (#features)  
-3. [Tech Stack] (#tech-stack)  
-4. [Getting Started] (#getting-started)  
-   - [Prerequisites] (#prerequisites)  
-   - [Installation & Run] (#installation--run)  
-5. [Razorpay Testing (Sandbox)] (#razorpay-testing-sandbox)  
-6. [Screenshots] (#screenshots)  
-7. [Future Enhancements] (#future-enhancements)  
-8. [Author] (#author)  
+1. [About the Project](#about-the-project)  
+2. [Features](#features)  
+3. [Tech Stack](#tech-stack)  
+4. [Getting Started](#getting-started)  
+   - [Prerequisites](#prerequisites)  
+   - [Installation & Run](#installation--run)  
+5. [Razorpay Testing (Sandbox)](#razorpay-testing-sandbox)  
+6. [Screenshots](#screenshots)  
+7. [Future Enhancements](#future-enhancements)  
+8. [Author](#author)  
 
 
 ---
