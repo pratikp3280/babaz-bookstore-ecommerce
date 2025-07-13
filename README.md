@@ -225,8 +225,8 @@ This project integrates **Razorpay's Java API** in **Test Mode** to simulate sec
 
 <p align="center">
   <img src="screenshots/Admin_Add_books_form.png" alt="Admin Add Book" width="260"/>
-  <img src="screenshots/Admin_Manage_Books.png" alt="Admin Manage Books" width="260"/>
-  <img src="screenshots/Admin_Razorapay_Payment.png" alt="Admin Payment Test" width="260"/>
+  <img src="screenshots/Admin_Manage_Books_Page.png" alt="Admin Manage Books" width="260"/>
+  <img src="screenshots/Admin_Razorapay_Payments_Data.png" alt="Admin Payment Test" width="260"/>
 </p>
 
 
